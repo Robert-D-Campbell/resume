@@ -1,7 +1,7 @@
 import React from 'react';
 import MailIcon from '../assets/mail.svg';
 import MobileIcon from '../assets/mobile.svg';
-import GlobeIcon from '../assets/globe.svg';
+import GithubIcon from '../assets/github.svg';
 import LocationIcon from '../assets/location.svg';
 
 const Contact = ({ field, value }) => (
@@ -24,7 +24,7 @@ const Contact = ({ field, value }) => (
     )}
     {field === 'website' && (
       <>
-        <GlobeIcon className="contact-icon" />
+        <GithubIcon className="contact-icon" />
         <a
           className="contact-link"
           target="_blank"
@@ -32,7 +32,7 @@ const Contact = ({ field, value }) => (
           rel="noopener noreferrer"
           title="website"
         >
-          Personal Site
+          Github
         </a>
       </>
     )}

@@ -6,22 +6,16 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Baran Cezayirli | Technologist`,
-    author: `Baran Cezayirli`,
-    description: `With 10+ years of experience in various industries, I help tech
-              startups from idea phase to high volumes. I design and build
-              scalable solutions, implement internal processes that fit your
-              organization, build teams that produce results.`,
-    siteUrl: `https://barancezayirli.com/`,
-    social: {
-      twitter: `barancezayirli`,
-    },
+    title: `Robert Campbell | Software Developer`,
+    author: `Robert Campbell`,
+    description: `Highly motivated software developer with a passion for Dev Ops. Specializing in small to medium sized web apps and CMS integration. I strive to develop responsive web applications with my main focus being performance and accessibility.`,
+    siteUrl: `https://github.com/Robert-D-Campbell`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Baran Cezayirli | Technologist`,
+        name: `Robert Campbell | Software Developer`,
         short_name: `CV`,
         start_url: `/`,
         background_color: `#f7f0eb`,
